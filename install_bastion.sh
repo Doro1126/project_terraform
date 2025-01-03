@@ -1,6 +1,6 @@
 #!/bin/bash
 sudo apt update -y
-sudo apt install -y git curl wget mysql-client
+sudo apt install -y git curl wget mysql-client unzip
 curl -fsSL https://deb.nodesource.com/setup_18.x | sudo -E bash -
 sudo apt-get install -y nodejs
 git clone https://github.com/Doro1126/mywebhook.git
